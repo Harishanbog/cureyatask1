@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-eo9qzlb(e-fdxj#f^#=#=*7@jvd^i0)g&=4)xz7tfgnx$6r7wi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['65.2.33.77']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
 'NAME': 'DJANGOPROJECT',
 'USER': 'admin',
 'PASSWORD': 'Harishankar34',
-'HOST': 'database-2.cqeucvbogxl1.ap-south-1.rds.amazonaws.com',
+'HOST': 'localhost',
 'PORT':'3306',
 }
 }
@@ -134,4 +134,4 @@ EMAIL_HOST_USER='raohari12@gmail.com'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
-EMAIL_HOST_PASSWORD='Ramprasad34'
+EMAIL_HOST_PASSWORD='password'
